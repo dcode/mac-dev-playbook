@@ -18,10 +18,8 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
-  - atom
   - bash-completion
   - coreutils
-  - gbdm
   - gettext
   - gifsicle
   - git
@@ -66,6 +64,7 @@ homebrew_cask_apps:
   - spectacle
   - vagrant
   - virtualbox
+  - virtualbox-extension-pack
   - visual-studio-code
   - vlc
 

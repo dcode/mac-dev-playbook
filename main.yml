@@ -20,6 +20,29 @@
     - role: geerlingguy.mas
       when: mas_installed_apps
       tags: ['mas']
+    - role: mmannerm.bash_it
+      aliases:
+        - general
+        - git
+      plugins:
+        - alias-completion
+        - base
+        - git
+        - history
+      completions:
+        - awscli
+        - bash-it
+        - brew
+        - docker-compose
+        - docker
+        - git
+        - hub
+        - maven
+        - ssh
+        - system
+        - vagrant
+        - vault
+      tags: ['bash_it']
 
   tasks:
     - include_tasks: tasks/ansible-setup.yml
