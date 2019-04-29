@@ -52,7 +52,7 @@ homebrew_cask_apps:
   - atom
   - brave-browser-dev
   - chromedriver
-  #- docker
+  - dotnet-sdk
   - firefox
   - google-chrome
   - handbrake
