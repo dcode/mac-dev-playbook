@@ -1,3 +1,7 @@
+aliases:
+  - general
+  - git
+
 homebrew_installed_packages:
   - autoconf
   - bash-completion
