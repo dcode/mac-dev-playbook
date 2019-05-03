@@ -27,6 +27,9 @@
   tasks:
     - include_tasks: tasks/ansible-setup.yml
 
+    - include_tasks: tasks/gvm.yml
+      when: configure_gvm
+
     - include_tasks: tasks/sudoers.yml
       when: configure_sudoers
 
