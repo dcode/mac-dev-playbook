@@ -42,6 +42,7 @@
         - system
         - vagrant
         - vault
+      when: configure_bashit
       tags: ['bash_it']
 
   tasks:

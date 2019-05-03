@@ -1,6 +1,7 @@
 ---
 downloads: ~/.ansible-downloads/
 
+configure_bashit: no
 configure_dotfiles: no
 configure_sudoers: no
 configure_terminal: no
@@ -35,7 +36,10 @@ homebrew_installed_packages:
   - node
   - nvm
   - openssl
+  - rbenv
+  - rbenv-bundler
   - readline
+  - ruby-build
   - sqlite
   - ssh-copy-id
   - terraform
@@ -63,6 +67,7 @@ homebrew_cask_apps:
   - skitch
   - spectacle
   - vagrant
+  - veracrypt
   - virtualbox
   - virtualbox-extension-pack
   - visual-studio-code
