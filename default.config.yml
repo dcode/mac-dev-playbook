@@ -7,6 +7,30 @@ configure_sudoers: no
 configure_terminal: no
 configure_osx: no
 
+# bash_it role
+# See `mmannerm.bash_it` role documentation for usage instructions.
+aliases:
+  - general
+  - git
+plugins:
+  - alias-completion
+  - base
+  - git
+  - history
+completions:
+  - awscli
+  - bash-it
+  - brew
+  - docker-compose
+  - docker
+  - git
+  - hub
+  - maven
+  - ssh
+  - system
+  - vagrant
+  - vault
+
 dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles

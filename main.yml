@@ -21,27 +21,6 @@
       when: mas_installed_apps
       tags: ['mas']
     - role: mmannerm.bash_it
-      aliases:
-        - general
-        - git
-      plugins:
-        - alias-completion
-        - base
-        - git
-        - history
-      completions:
-        - awscli
-        - bash-it
-        - brew
-        - docker-compose
-        - docker
-        - git
-        - hub
-        - maven
-        - ssh
-        - system
-        - vagrant
-        - vault
       when: configure_bashit
       tags: ['bash_it']
 
