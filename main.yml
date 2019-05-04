@@ -30,6 +30,9 @@
     - include_tasks: tasks/gvm.yml
       when: configure_gvm
 
+    - include_tasks: tasks/network.yml
+      when: configure_network
+
     - include_tasks: tasks/sudoers.yml
       when: configure_sudoers
 

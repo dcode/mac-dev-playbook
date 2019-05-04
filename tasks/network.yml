@@ -1,0 +1,40 @@
+---
+- name: Networksetup -listlocations
+  command: networksetup -listlocations
+  register: locations
+  changed_when: false
+
+- name: Create home location
+  command: networksetup -createlocation Home populate
+  when: "'Home' not in locations.stdout"
+
+- name: Networksetup -getcurrentlocation
+  command: networksetup -getcurrentlocation
+  register: location
+  changed_when: false
+
+- name: Enable Home location
+  shell: networksetup -switchtolocation Home
+  when: "'Home' not in location.stdout"
+
+- name: Networksetup -getdnsservers
+  command: networksetup -getdnsservers Wi-Fi
+  register: servers
+  changed_when: false
+
+- name: Enable DNS servers
+  shell: networksetup -setdnsservers Wi-Fi 1.1.1.1 1.0.0.1
+  when: ('1.1.1.1' not in servers.stdout or '1.0.0.1' not in servers.stdout)
+
+- name: Enable Automatic location
+  shell: networksetup -switchtolocation Automatic
+  changed_when: false
+
+- name: Networksetup -getdnsservers
+  command: networksetup -getdnsservers Wi-Fi
+  register: servers
+  changed_when: false
+
+- name: Enable pihole DNS server
+  shell: networksetup -setdnsservers Wi-Fi pihole
+  when: (pihole is defined and pihole not in servers.stdout)

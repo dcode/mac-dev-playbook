@@ -4,6 +4,7 @@ downloads: ~/.ansible-downloads/
 configure_bashit: no
 configure_dotfiles: no
 configure_gvm: no
+configure_network: yes
 configure_sudoers: no
 configure_terminal: no
 configure_osx: no
@@ -104,6 +105,8 @@ mas_email: ""
 mas_password: ""
 
 osx_script: "~/.osx --no-restart"
+
+pihole: "192.168.0.18"
 
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
