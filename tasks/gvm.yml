@@ -1,4 +1,6 @@
 ---
 - name: Install GVM
-  shell: "bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)"
-  tags: ['gvm']
+  get_url:
+    url: https://github.com/andrewkroh/gvm/releases/download/v0.2.0/gvm-darwin-amd64
+    dest: /usr/local/bin/gvm
+    mode: 0755
