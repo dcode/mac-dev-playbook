@@ -66,6 +66,7 @@ homebrew_installed_packages:
   - rbenv-bundler
   - readline
   - ruby-build
+  - shellcheck
   - sqlite
   - ssh-copy-id
   - terraform
