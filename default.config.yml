@@ -62,6 +62,7 @@ homebrew_installed_packages:
   - node
   - nvm
   - openssl
+  - pre-commit
   - rbenv
   - rbenv-bundler
   - readline
