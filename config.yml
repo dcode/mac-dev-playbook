@@ -1,0 +1,77 @@
+---
+configure_bashit: yes
+configure_dotfiles: yes
+configure_gvm: yes
+configure_osx: yes
+
+dotfiles_repo: https://github.com/dcode/dotfiles.git
+dotfiles_repo_local_destination: ~/Projects/dotfiles
+dotfiles_files:
+  - .bashrc
+  - .bash_profile
+  - .dircolors
+  - .gitconfig
+  - .gitignore
+  - .inputrc
+  - .osx
+  - .tmux.conf
+  - .vimrc
+
+homebrew_installed_packages:
+  - ansible-lint
+  - bash-completion
+  - blueutil
+  - coreutils
+  - gettext
+  - git
+  - go
+  - gpg2
+  - httpie
+  - hping
+  - jq
+  - kubernetes-cli
+  - libyaml
+  - nmap
+  - openssl
+  - pyenv
+  - pyenv-virtualenv
+  - readline
+  - shellcheck
+  - sqlite
+  - ssh-copy-id
+  - terraform
+  - terragrunt
+  - vault
+  - yamllint
+  - bzip2
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+  - homebrew/cask-drivers
+
+homebrew_cask_apps:
+  - atom
+  - chromedriver
+  - dotnet-sdk
+  - firefox
+  - iterm2
+  - jabra-direct
+  - logitech-options
+  - notion
+  - slack
+  - vagrant
+  - virtualbox
+  - virtualbox-extension-pack
+  - visual-studio-code
+  - vlc
+  - zoom
+
+mas_installed_apps:
+  - { id: 441258766, name: "Magnet" }
+  - { id: 414030210, name: "Limechat" }
+  - { id: 1451685025, name: "WireGuard" }
+  - { id: 975937182, name: "Fantastical 2" }
+  - { id: 975937182, name: "inShort: Project & Workflow" }
+  - { id: 1439967473, name: "Okta Browser Extension" }
+...
