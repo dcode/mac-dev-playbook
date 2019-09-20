@@ -33,6 +33,7 @@ homebrew_installed_packages:
   - libyaml
   - nmap
   - openssl
+  - pianobar
   - pyenv
   - pyenv-virtualenv
   - readline
@@ -59,7 +60,6 @@ homebrew_cask_apps:
   - jabra-direct
   - keybase
   - logitech-options
-  - pianobar
   - notion
   - slack
   - vagrant
