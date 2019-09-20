@@ -57,7 +57,9 @@ homebrew_cask_apps:
   - firefox
   - iterm2
   - jabra-direct
+  - keybase
   - logitech-options
+  - pianobar
   - notion
   - slack
   - vagrant
