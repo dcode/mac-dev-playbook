@@ -24,6 +24,7 @@ homebrew_installed_packages:
   - ansible-lint
   - awscli
   - bash-completion
+  - bitwarden-cli
   - blueutil
   - bzip2
   - coreutils
@@ -47,7 +48,6 @@ homebrew_installed_packages:
   - sqlite
   - ssh-copy-id
   - terraform
-  - terragrunt
   - vault
   - yamllint
 
@@ -57,22 +57,22 @@ homebrew_taps:
   - homebrew/core
 
 homebrew_cask_apps:
+  - bitwarden
   - chromedriver
   - dotnet-sdk
   - firefox
   - google-chrome
   - google-cloud-sdk
   - iterm2
-  - jabra-direct
   - keybase
   - logitech-options
   - mactex-no-gui
-  - notion
+#   - notion
   - slack
   - usb-overdrive
   - vagrant
-  - virtualbox
-  - virtualbox-extension-pack
+#   - virtualbox
+#   - virtualbox-extension-pack
   - visual-studio-code
   - vlc
   - vmware-remote-console
@@ -82,11 +82,11 @@ homebrew_cask_apps:
 
 mas_installed_apps:
   - { id: 1295203466, name: "Microsoft Remote Desktop" }
-  - { id: 1439967473, name: "Okta Browser Extension" }
+#   - { id: 1439967473, name: "Okta Browser Extension" }
   - { id: 1451685025, name: "WireGuard" }
   - { id: 414030210, name: "Limechat" }
   - { id: 441258766, name: "Magnet" }
   - { id: 585829637, name: "Todoist" }
-  - { id: 856124300, name: "inShort" }
+#   - { id: 856124300, name: "inShort" }
   - { id: 920404675, name: "Monodraw" }
   - { id: 975937182, name: "Fantastical 2" }
