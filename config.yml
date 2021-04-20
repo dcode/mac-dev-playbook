@@ -81,6 +81,7 @@ homebrew_cask_apps:
   - zoomus
 
 mas_installed_apps:
+  - { id: 937984704, name: "Amphetamine" }
   - { id: 1295203466, name: "Microsoft Remote Desktop" }
 #   - { id: 1439967473, name: "Okta Browser Extension" }
   - { id: 1451685025, name: "WireGuard" }
