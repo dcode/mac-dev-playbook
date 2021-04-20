@@ -89,4 +89,7 @@ mas_installed_apps:
   - { id: 585829637, name: "Todoist" }
 #   - { id: 856124300, name: "inShort" }
   - { id: 920404675, name: "Monodraw" }
-  - { id: 975937182, name: "Fantastical 2" }
+  - { id: 975937182, name: "Fantastical" }
+  - { id: 425424353, name: "The Unarchiver" }
+  - { id: 1381004916, name: "Discovery" }
+  - { id: 1193539993, name: "Brother iPrint&Scan" }
